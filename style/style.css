@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+  background-color: #001821;
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+}
+h1 {
+  font-size: 72px;
+  line-height: 98px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+}
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  width: 1140px;
+  height: 123px;
+  margin-top: 26px;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu {
+  display: inline-block;
+  margin-left: 40px;
+  vertical-align: top;
+}
+.menu__item {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 50px;
+  text-align: left;
+}
+.menu__title {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contacts {
+  display: inline-block;
+  position: relative;
+  left: 470px;
+}
+.contacts__phone {
+  display: block;
+  font-size: 26px;
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
+}
+.schedule {
+  display: block;
+  font-size: 13px;
+  font-style: normal;
+  text-decoration: underline;
+  text-align: right;
+}
+.page-content {
+  margin-top: 46px;
+}
+.main-title {
+  width: 500px;
+}
+.main-title__title {
+  display: block;
+  height: 200px;
+  margin: 0px;
+}
+.main-title__text {
+  display: block;
+  margin-top: 28px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.button {
+  display: block;
+  background-color: #f5170e;
+  width: 168px;
+  height: 55px;
+  margin-top: 33px;
+  text-transform: uppercase;
+  border-radius: 35px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hot-tours {
+  display: block;
+  margin-top: 246px;
+}
+.hot-tours__header {
+  display: block;
+}
+.hot-tours__title {
+  display: inline-block;
+  margin: 0px;
+  vertical-align: middle;
+}
+.fire-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
+}
+
+.hot-tours__body {
+  display: block;
+  margin-top: 50px;
+}
+
+.hot-tours__list {
+  display: block;
+  position: relative;
+  align-content: flex-end;
+}
+.card {
+  display: inline-block;
+  width: 362px;
+  height: 450px;
+  background-color: #fff;
+}
+.card__img {
+  width: 362px;
+  height: 144px;
+}
