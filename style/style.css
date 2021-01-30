@@ -330,7 +330,7 @@ ul li {
 }
 
 .about-us {
-  margin-bottom: 66px;
+  margin-bottom: 52px;
 }
 
 .about-us:before,
@@ -379,12 +379,24 @@ ul li {
 .footer {
   position: relative;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-bottom: 57px;
+  height: 145px;
+}
+
+.logo__footer {
+  top: 45px;
+}
+
+.menu__footer {
+  top: 58px;
+}
+
+.contacts__footer {
+  top: 48px;
 }
 
 .social {
   position: absolute;
-  top: 33px;
+  top: 50px;
   right: 265px;
 }
 
