@@ -9,14 +9,15 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  color: #fff;
   line-height: 1.42;
-  background: #001821;
 }
-.main-page__wrapper {
+
+.wrapper_main {
   background: url("../img/background-top.jpg") center top no-repeat,
-    url("../img/background-bottom.jpg") center bottom 160px no-repeat;
+    url("../img/background-bottom.jpg") center bottom 160px no-repeat, #001821;
+  color: #fff;
 }
+
 a {
   color: inherit;
 }
@@ -70,6 +71,7 @@ ul li {
 
 .menu__item {
   display: inline-block;
+  font-size: 14px;
   vertical-align: middle;
   margin-right: 51px;
 }
@@ -78,38 +80,44 @@ ul li {
   margin-right: 0;
 }
 
-.menu__link {
-  font-size: 14px;
-  text-decoration: none;
+.menu__item:hover {
+  color: #da0100;
 }
 
-.menu__link:hover {
+.menu__item_active {
   color: #da0100;
+}
+
+.menu__link {
+  text-decoration: none;
 }
 
 .contacts {
   font-style: normal;
   position: absolute;
-  top: 28px;
+  top: 33px;
   right: 0px;
   text-align: right;
+  line-height: 1;
 }
 
 .contacts__phone {
   font-size: 26px;
-  line-height: 35px;
   text-decoration: none;
 }
 
 .contacts__schedule {
   color: #98a4a8;
   font-size: 13px;
-  line-height: 6px;
   text-decoration: underline;
 }
 
 .contacts__schedule:hover {
   color: #fff;
+}
+
+.contacts__schedule {
+  cursor: pointer;
 }
 
 .contacts__desc {
@@ -142,9 +150,10 @@ ul li {
 
 .button:active {
   background: #da0100;
+  color: #fff;
 }
 
-.button__more {
+.button-more {
   background: #f5170e;
   padding: 17px 38px;
 }
@@ -181,12 +190,8 @@ ul li {
   margin-right: 0;
 }
 
-.card__header {
-  margin-bottom: 29px;
-}
-
 .card__body {
-  padding: 0 22px;
+  padding: 29px 22px;
 }
 
 .card__title {
@@ -392,6 +397,10 @@ ul li {
 
 .footer__menu {
   top: 57px;
+}
+
+.contacts__desc {
+  margin-bottom: 9px;
 }
 
 .footer__contacts {
