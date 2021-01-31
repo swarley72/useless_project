@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 * {
   padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #fff;
   line-height: 1.42;
@@ -15,7 +15,7 @@ body {
 }
 .main-page__wrapper {
   background: url("../img/background-top.jpg") center top no-repeat,
-    url("../img/background-bottom.jpg") right bottom no-repeat;
+    url("../img/background-bottom.jpg") center bottom 160px no-repeat;
 }
 a {
   color: inherit;
@@ -23,19 +23,16 @@ a {
 h1 {
   font-size: 72px;
   line-height: 100px;
-  letter-spacing: 1px;
 }
 
 h2 {
   font-size: 36px;
   line-height: 50px;
-  letter-spacing: 1.5px;
 }
 
 h3 {
   font-size: 24px;
   line-height: 33px;
-  letter-spacing: 1px;
 }
 
 ul {
@@ -49,6 +46,7 @@ ul li {
 .container {
   width: 1140px;
   margin: 0 auto;
+  position: relative;
 }
 
 .header {
@@ -104,9 +102,14 @@ ul li {
 }
 
 .contacts__schedule {
+  color: #98a4a8;
   font-size: 13px;
   line-height: 6px;
   text-decoration: underline;
+}
+
+.contacts__schedule:hover {
+  color: #fff;
 }
 
 .contacts__desc {
@@ -137,6 +140,10 @@ ul li {
   font-weight: 700;
 }
 
+.button:active {
+  background: #da0100;
+}
+
 .button__more {
   background: #f5170e;
   padding: 17px 38px;
@@ -148,7 +155,6 @@ ul li {
 
 .hot-tours__title {
   margin-bottom: 49px;
-  letter-spacing: 1px;
 }
 
 .hot-tours__title::after {
@@ -180,12 +186,12 @@ ul li {
 }
 
 .card__body {
-  padding: 0 16px 0 22px;
+  padding: 0 22px;
 }
 
 .card__title {
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .card__duration-meal {
@@ -196,7 +202,7 @@ ul li {
 
 .card__duration {
   display: inline-block;
-  margin-right: 28px;
+  margin-right: 27px;
   vertical-align: middle;
 }
 
@@ -207,7 +213,7 @@ ul li {
   vertical-align: middle;
   width: 26px;
   height: 26px;
-  margin-right: 10px;
+  margin-right: 11px;
 }
 
 .card__meal {
@@ -222,7 +228,7 @@ ul li {
   vertical-align: middle;
   width: 36px;
   height: 26px;
-  margin-right: 10px;
+  margin-right: 7px;
 }
 
 .card__desc {
@@ -234,7 +240,7 @@ ul li {
 
 .button-see {
   color: #f5170e;
-  padding: 16px 29px;
+  padding: 16px 30px;
 }
 
 .button-see:hover {
@@ -330,42 +336,41 @@ ul li {
 }
 
 .about-us {
-  margin-bottom: 52px;
+  margin-bottom: 56px;
 }
 
-.about-us:before,
+.about-us__back-pic,
 .about-us__desc {
   display: inline-block;
   vertical-align: top;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
-.about-us:before {
-  content: "";
+.about-us__back-pic {
   width: 490px;
   height: 505px;
   background: url("../img/bike.jpg") center center / cover no-repeat;
-  border-radius: 5px;
 }
 
 .about-us__desc {
-  background: url("../img/river.jpg") center center no-repeat;
+  background: url("../img/river.jpg") center center / cover no-repeat;
   width: 785px;
-  padding: 70px 81px;
-  box-sizing: border-box;
-  border-radius: 5px;
+  height: 455px;
   margin-left: -140px;
   margin-top: 98px;
+  padding: 70px 80px;
 }
 .about-us__title {
   color: #000;
-  margin-bottom: 40px;
+  margin-bottom: 37px;
 }
 
 .about-us__desc-text {
   color: #060606;
-  width: 495px;
+  width: 500px;
   line-height: 27px;
-  margin-bottom: 65px;
+  margin-bottom: 43px;
 }
 
 .about-us__desc-text p {
@@ -377,21 +382,20 @@ ul li {
 }
 
 .footer {
-  position: relative;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   height: 145px;
 }
 
-.logo__footer {
+.footer__logo {
   top: 45px;
 }
 
-.menu__footer {
-  top: 58px;
+.footer__menu {
+  top: 57px;
 }
 
-.contacts__footer {
-  top: 48px;
+.footer__contacts {
+  top: 47px;
 }
 
 .social {
@@ -422,14 +426,28 @@ ul li {
   background-image: url("../img/tg-icon.png");
 }
 
+.social__item_icon_tg .social__link:hover {
+  background-image: url("../img/tg-icon-hover.png");
+}
+
 .social__item_icon_vk .social__link {
   background-image: url("../img/vk-icon.png");
+}
+
+.social__item_icon_vk .social__link:hover {
+  background-image: url("../img/vk-icon-hover.png");
 }
 
 .social__item_icon_fb .social__link {
   background-image: url("../img/facebook-icon.png");
 }
+.social__item_icon_fb .social__link:hover {
+  background-image: url("../img/facebook-icon-hover.png");
+}
 
 .social__item_icon_inst .social__link {
   background-image: url("../img/instagram-icon.png");
+}
+.social__item_icon_inst .social__link:hover {
+  background-image: url("../img/instagram-icon-hover.png");
 }
