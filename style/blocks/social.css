@@ -1,0 +1,47 @@
+.social__list {
+  display: flex;
+  width: 174px;
+  justify-content: space-between;
+}
+.social__item {
+  display: flex;
+}
+
+.social__link {
+  width: 36px;
+  height: 36px;
+  text-decoration: none;
+  background: no-repeat;
+}
+
+.social__item--icon-tg .social__link {
+  background-image: url("../../img/socials/tg-icon.png");
+}
+
+.social__item--icon-tg .social__link:hover {
+  background-image: url("../../img/socials/tg-icon-hover.png");
+}
+
+.social__item--icon-vk .social__link {
+  background-image: url("../../img/socials/vk-icon.png");
+}
+
+.social__item--icon-vk .social__link:hover {
+  background-image: url("../../img/socials/vk-icon-hover.png");
+}
+
+.social__item--icon-fb .social__link {
+  background-image: url("../../img/socials/facebook-icon.png");
+}
+
+.social__item--icon-fb .social__link:hover {
+  background-image: url("../../img/socials/facebook-icon-hover.png");
+}
+
+.social__item--icon-inst .social__link {
+  background-image: url("../../img/socials/instagram-icon.png");
+}
+
+.social__item--icon-inst .social__link:hover {
+  background-image: url("../../img/socials/instagram-icon-hover.png");
+}

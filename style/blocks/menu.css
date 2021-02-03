@@ -1,0 +1,22 @@
+menu {
+  display: block;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  width: 264px;
+}
+
+.menu__item {
+  display: block;
+  font-size: 14px;
+}
+
+.menu__item:hover {
+  color: #da0100;
+}
+
+.menu__item_active {
+  color: #da0100;
+}

@@ -1,0 +1,48 @@
+.about-us {
+  margin-bottom: 61px;
+}
+
+.about-us__content {
+  display: flex;
+}
+
+.about-us__back-pic,
+.about-us__desc {
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.about-us__back-pic {
+  width: 490px;
+  height: 505px;
+  background: url("../../img/bike.jpg") center center / cover no-repeat;
+}
+
+.about-us__desc {
+  background: url("../../img/river.jpg") center center / cover no-repeat;
+  width: 785px;
+  height: 455px;
+  margin-left: -135px;
+  margin-top: 98px;
+  padding: 70px 80px;
+}
+.about-us__title {
+  color: #000;
+  margin-bottom: 37px;
+}
+
+.about-us__desc-text {
+  color: #060606;
+  width: 500px;
+  line-height: 27px;
+  margin-bottom: 43px;
+}
+
+.about-us__desc-text p {
+  margin-bottom: 10px;
+}
+
+.about-us__desc-text p:last-child {
+  margin-bottom: 0;
+}

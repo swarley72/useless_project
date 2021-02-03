@@ -1,0 +1,11 @@
+.main-title {
+  margin-bottom: 28px;
+}
+.main-title__title {
+  width: 510px;
+  margin-bottom: 25px;
+}
+
+.main-title__text {
+  font-size: 18px;
+}

@@ -1,0 +1,25 @@
+.breadcrumbs__list {
+  display: flex;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  color: #9a9a9a;
+}
+
+.breadcrumbs__item--active {
+  font-weight: 700;
+}
+
+.breadcrumbs__link {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.breadcrumbs__separator:before {
+  content: "\00a0 ";
+}
+
+.breadcrumbs__separator:after {
+  content: "\00a0 ";
+}

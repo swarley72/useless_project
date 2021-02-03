@@ -1,0 +1,15 @@
+.logo {
+  display: block;
+}
+
+.logo__img--small {
+  width: 85px;
+  height: 36px;
+  margin-right: 79px;
+}
+
+.logo__img--regular {
+  width: 98px;
+  height: 42px;
+  margin-right: 66px;
+}
