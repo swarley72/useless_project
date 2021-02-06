@@ -1,24 +1,15 @@
 .header {
-  margin-bottom: 246px;
-}
-
-.header--type-secondary {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 29px;
   margin-bottom: 20px;
 }
 
-.header__container {
+.header__col {
   display: flex;
-  margin-top: 29px;
-  margin-bottom: 125px;
   align-items: center;
-  flex-wrap: nowrap;
-  color: #ffffff;
-}
-.header__container--type-secondary {
-  margin-bottom: 92px;
 }
 
-.header__title {
-  display: block;
-  margin-bottom: 102px;
+.header__col--align--right {
+  justify-content: flex-end;
 }

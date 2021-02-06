@@ -1,6 +1,4 @@
 .button {
-  display: inline-block;
-  border: 1px solid #f5170e;
   border-radius: 35px;
   text-decoration: none;
   font-size: 14px;
@@ -8,27 +6,33 @@
   font-weight: 700;
 }
 
-.button-more {
-  background: #f5170e;
-  padding: 17px 38px;
-}
-
-.button-more:hover {
-  background: #da0100;
-}
-
-.button-see {
-  display: block;
-  color: #f5170e;
+.button--size-small {
   width: 135px;
   height: 55px;
   padding: 18px 30px;
-  text-align: center;
-  margin-left: 23px;
-  margin-bottom: 28px;
 }
 
-.button-see:hover {
+.button--size--large {
+  width: 168px;
+  height: 55px;
+  padding: 18px 40px;
+}
+
+.button--color--red {
+  background: #f5170e;
+}
+
+.button--color--white {
+  background: #ffffff;
+  border: 1px solid #f5170e;
+  color: #f5170e;
+}
+
+.button--color--grey {
+  background: #8e8e8e;
+}
+
+.button--color--white:hover {
   color: #fff;
   background: #f5170e;
 }

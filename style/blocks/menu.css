@@ -1,11 +1,11 @@
-menu {
+.menu {
   display: block;
 }
 
 .menu__list {
   display: flex;
   justify-content: space-between;
-  width: 264px;
+  min-width: 264px;
 }
 
 .menu__item {

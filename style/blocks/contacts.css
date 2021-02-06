@@ -12,19 +12,16 @@
   font-size: 26px;
 }
 
-.contacts__schedule {
+.contacts__schedule-dropdown {
   display: block;
   color: #98a4a8;
   font-size: 13px;
   text-decoration: underline;
-}
-
-.contacts__schedule:hover {
-  color: #fff;
-}
-
-.contacts__schedule {
   cursor: pointer;
+}
+
+.contacts__schedule-dropdown:hover {
+  color: #fff;
 }
 
 .contacts__desc {

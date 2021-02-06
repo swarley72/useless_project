@@ -2,17 +2,22 @@
 @import url("./layout/normalize.css");
 @import url("./layout/base.css");
 
+@import url("./blocks/hero.css");
 @import url("./blocks/header.css");
 @import url("./blocks/logo.css");
 @import url("./blocks/menu.css");
 @import url("./blocks/contacts.css");
 @import url("./blocks/main-title.css");
 @import url("./blocks/hot-tours.css");
+@import url("./blocks/card.css");
 @import url("./blocks/news-promotions.css");
 @import url("./blocks/about-us.css");
 @import url("./blocks/button.css");
 @import url("./blocks/paginator.css");
 @import url("./blocks/footer.css");
-@import url("./blocks/social.css");
+@import url("./blocks/socials.css");
 @import url("./blocks/breadcrumbs.css");
+@import url("./blocks/top-line.css");
 @import url("./blocks/services.css");
+@import url("./blocks/inner-section.css");
+@import url("./blocks/partners.css");

@@ -1,0 +1,16 @@
+.top-line {
+  display: flex;
+  flex-direction: column;
+  min-height: 412px;
+  background: url("../../img/background/background-secondary.jpg") center center
+      no-repeat,
+    #001821;
+  padding-bottom: 24px;
+}
+
+.top-line__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}

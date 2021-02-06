@@ -2,14 +2,10 @@
   display: block;
 }
 
-.logo__img--small {
-  width: 85px;
-  height: 36px;
+.logo--small {
   margin-right: 79px;
 }
 
-.logo__img--regular {
-  width: 98px;
-  height: 42px;
+.logo--regular {
   margin-right: 66px;
 }
