@@ -6,17 +6,20 @@
 .partners__item {
   margin-bottom: 58px;
   filter: grayscale(1);
+
+  flex-grow: 1;
+  min-width: 265px;
+  max-width: 295px;
 }
 
 .partners__link {
   display: flex;
-  width: 250px;
   height: 70px;
   align-items: center;
   justify-content: flex-start;
 }
 
-.partners:nth-child(4n) .partners__link {
+.partners__item:nth-child(4n + 4) .partners__link {
   justify-content: flex-end;
 }
 

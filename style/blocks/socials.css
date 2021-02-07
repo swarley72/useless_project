@@ -1,6 +1,5 @@
 .socials__list {
   display: flex;
-  justify-content: space-between;
 }
 
 .socials__item {

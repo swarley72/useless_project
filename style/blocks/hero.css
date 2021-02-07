@@ -1,12 +1,12 @@
 .hero {
-  margin-bottom: 262px;
+  margin-bottom: 245px;
 }
 
 .hero__container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 515px;
+  min-height: 530px;
 }
 
 .hero__text-section {
@@ -18,5 +18,5 @@
 }
 
 .hero__subtitle {
-  margin-bottom: 50px;
+  margin-bottom: 33px;
 }

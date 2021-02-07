@@ -12,12 +12,6 @@
   margin-bottom: 52px;
 }
 
-.news-promotions__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .single-news-promotion__item {
   border-radius: 5px;
   position: relative;

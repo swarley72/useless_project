@@ -4,13 +4,16 @@
 
 .menu__list {
   display: flex;
-  justify-content: space-between;
-  min-width: 264px;
 }
 
 .menu__item {
   display: block;
   font-size: 14px;
+  margin-right: 54px;
+}
+
+.menu__item:last-child {
+  margin-right: 0px;
 }
 
 .menu__item:hover {

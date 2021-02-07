@@ -3,6 +3,8 @@
 }
 
 .hot-tours__title {
+  display: flex;
+  align-items: center;
   margin-bottom: 49px;
 }
 
@@ -10,9 +12,8 @@
   content: "";
   width: 21px;
   height: 28px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 12px;
+  display: block;
+  margin-left: 14px;
   background: url("../../img/flame.png");
 }
 

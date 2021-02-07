@@ -1,0 +1,46 @@
+.reviewer__avatar {
+  display: inline-block;
+  width: 142px;
+  height: 142px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 22px;
+  vertical-align: middle;
+}
+
+.reviewer__info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.reviewer__name {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #1a1b1e;
+  cursor: pointer;
+}
+
+.reviewer__name::after {
+  display: inline-block;
+  margin-left: 7px;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: url("../../img/socials/vk-blue.png");
+  overflow: hidden;
+}
+
+.reviewer__name:hover {
+  color: #2e77a4;
+  text-decoration: underline;
+}
+
+.reviewer__service-link {
+  padding: 9px 17px;
+  background: #b9eae4;
+  border-radius: 35px;
+  color: #303030;
+}

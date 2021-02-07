@@ -3,9 +3,6 @@
 }
 
 .services {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   margin-bottom: 38px;
 }
 
@@ -16,10 +13,9 @@
 }
 
 .service__img {
-  width: 42%;
-  height: 10%;
+  width: 40.5%;
   flex-shrink: 0;
-  margin-right: 3.3%;
+  margin-right: 4.8%;
   overflow: hidden;
 }
 
@@ -28,8 +24,6 @@
 }
 
 .service__content {
-  display: flex;
-  flex-direction: column;
   padding: 13px 0;
 }
 

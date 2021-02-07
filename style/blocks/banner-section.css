@@ -1,0 +1,27 @@
+.banner-section {
+  height: 363px;
+  background: url("../../img/background/background-review.jpg") center center
+    no-repeat;
+}
+
+.banner-section__container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-section__title {
+  display: inline-block;
+  max-width: 595px;
+  font-size: 48px;
+  line-height: 65px;
+  align-self: center;
+  margin-right: 25px;
+}
+
+.banner-section__img {
+  display: inline-block;
+  margin-top: auto;
+  font-size: 48px;
+  line-height: 65px;
+}
