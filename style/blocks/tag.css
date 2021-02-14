@@ -5,6 +5,7 @@
   background: #e7e7e7;
   border-radius: 35px;
   color: #303030;
+  transition: background-color 0.3s;
 }
 
 .tag--bg--green {

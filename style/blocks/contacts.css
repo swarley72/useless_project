@@ -1,7 +1,4 @@
 .contacts {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   margin-left: auto;
   font-style: normal;
   text-align: right;

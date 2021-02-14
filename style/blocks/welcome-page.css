@@ -7,8 +7,9 @@
   height: 100%;
   align-items: center;
   justify-content: center;
-  background: url("../../img/background/background-welcome.jpg") center
-    top/cover no-repeat;
+  background: url("../../img/background/shades.png") center center no-repeat,
+    url("../../img/background/background-welcome.jpg") center top/cover
+      no-repeat;
 }
 
 .welcome-container {
@@ -16,15 +17,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 127px;
+  padding-top: 125px;
   opacity: 0;
   animation: heartBeat 1s 1s ease-in-out forwards;
 }
 
-.welcome-text {
+.welcome-container__text {
   font-size: 18px;
   line-height: 13px;
-  margin-bottom: 59px;
+  margin-bottom: 60px;
 }
 
 @keyframes heartBeat {

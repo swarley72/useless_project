@@ -13,16 +13,17 @@
 }
 
 .review-form__textarea {
-  margin-bottom: 11px;
+  margin-bottom: 21px;
 }
 
 .review-form__input {
   padding: 20px 30px;
   border-radius: 5px;
   font-size: 18px;
-  border: none;
+  border: 1px solid transparent;
   margin-right: 28px;
   flex: 1;
+  transition: border-color 0.3s;
 }
 
 .review-form__input:last-child {
@@ -38,7 +39,7 @@
   padding: 33px 30px;
   width: 100%;
   min-height: 235px;
-  margin-bottom: 14px;
+  resize: none;
 }
 
 .review-form__controls-title {

@@ -3,8 +3,6 @@
 }
 
 .reviews {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   column-count: 2;
   column-gap: 27px;
   margin-bottom: 55px;
@@ -30,14 +28,19 @@
   margin-bottom: 27px;
 }
 
-.avatar {
-  display: inline-block;
+.review__photo {
   width: 142px;
   height: 142px;
-  border-radius: 50%;
   overflow: hidden;
+  border-radius: 50%;
   margin-right: 22px;
-  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.review__photo-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .review__username {
@@ -66,6 +69,14 @@
 .review__tags {
   display: flex;
   flex-wrap: wrap;
+}
+
+.review__tag-item {
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+.review__tag-item:last-child {
+  margin-right: 0;
 }
 
 .review__content {
