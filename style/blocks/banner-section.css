@@ -7,7 +7,14 @@
 .banner-section__container {
   height: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
+  background: url("../../img/background/couple.png") right 5% bottom no-repeat;
+}
+
+.banner-section__content {
+  max-width: 60%;
 }
 
 .banner-section__title {
@@ -17,11 +24,4 @@
   line-height: 65px;
   align-self: center;
   margin-right: 25px;
-}
-
-.banner-section__img {
-  display: inline-block;
-  margin-top: auto;
-  font-size: 48px;
-  line-height: 65px;
 }

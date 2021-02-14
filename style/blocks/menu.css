@@ -10,6 +10,7 @@
   display: block;
   font-size: 14px;
   margin-right: 54px;
+  transition: color 0.3s;
 }
 
 .menu__item:last-child {

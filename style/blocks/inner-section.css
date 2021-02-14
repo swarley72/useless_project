@@ -1,7 +1,6 @@
 .inner-section {
   background: #fff;
   color: #000000;
-  padding: 88px 0 48px;
 }
 
 .inner-section--bg--grey {
@@ -10,5 +9,4 @@
 
 .inner-section__title {
   font-size: 48px;
-  margin-bottom: 90px;
 }

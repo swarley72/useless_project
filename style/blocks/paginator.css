@@ -31,6 +31,7 @@
   text-decoration: none;
   font-weight: 700;
   line-height: 32px;
+  transition: color 0.2s, background-color 0.3s;
 }
 
 .paginator__link:hover {
@@ -43,10 +44,10 @@
 
 .paginator--theme--black .paginator__item_active .paginator__link {
   color: #ffffff;
-  background: #f5170e;
+  background-color: #f5170e;
 }
 
 .paginator--theme--black .paginator__link:hover {
   color: #ffffff;
-  background: #f5170e;
+  background-color: #f5170e;
 }

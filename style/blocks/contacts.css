@@ -12,16 +12,77 @@
   font-size: 26px;
 }
 
-.contacts__schedule-dropdown {
-  display: block;
+.contacts__schedule {
+  display: inline-block;
+  position: relative;
+}
+
+.contacts__link {
+  display: inline-block;
   color: #98a4a8;
   font-size: 13px;
   text-decoration: underline;
   cursor: pointer;
+  transition: color 0.3s;
 }
 
-.contacts__schedule-dropdown:hover {
+.contacts__link:hover {
   color: #fff;
+}
+
+.contacts__schedule:hover .contacts__drop {
+  right: 0;
+  opacity: 1;
+}
+
+.contacts__drop {
+  background: #ededed;
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 11px 18px;
+  line-height: 21px;
+  color: #1e1f20;
+  opacity: 0;
+  position: absolute;
+  right: 9999px;
+  top: 25px;
+  transition: opacity 1s;
+}
+
+.contacts__drop:before {
+  content: "";
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+}
+
+.contacts__drop::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid #ededed;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  bottom: 100%;
+  right: 26%;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contacts__item {
+  margin-bottom: 2px;
+}
+
+.contacts__item:last-child {
+  margin-bottom: 0;
 }
 
 .contacts__desc {

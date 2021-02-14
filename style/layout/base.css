@@ -18,6 +18,16 @@ body {
   line-height: 1.42;
 }
 
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
 h1,
 h2,
 h3,
@@ -74,11 +84,11 @@ ul li {
   min-width: 1200px;
 }
 
-.wrapper--type-secondary {
+/* .wrapper--type-secondary {
   background: url("../../img/background/background-secondary.jpg") center top
       no-repeat,
     #001821;
-}
+} */
 
 .wrapper-main {
   background: url("../../img/background/background-top.jpg") center top

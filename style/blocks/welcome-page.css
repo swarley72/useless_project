@@ -1,0 +1,52 @@
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url("../../img/background/background-welcome.jpg") center
+    top/cover no-repeat;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 127px;
+  opacity: 0;
+  animation: heartBeat 1s 1s ease-in-out forwards;
+}
+
+.welcome-text {
+  font-size: 18px;
+  line-height: 13px;
+  margin-bottom: 59px;
+}
+
+@keyframes heartBeat {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+
+  25% {
+    transform: scale(1.3);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(1.3);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

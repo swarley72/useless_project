@@ -1,0 +1,65 @@
+.review-form__container {
+  padding: 70px 0 95px 0;
+}
+
+.review-form__title {
+  margin-bottom: 66px;
+}
+
+.review-form__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.review-form__textarea {
+  margin-bottom: 11px;
+}
+
+.review-form__input {
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  margin-right: 28px;
+  flex: 1;
+}
+
+.review-form__input:last-child {
+  margin-right: 0;
+}
+
+.review-form__input:focus {
+  outline: none;
+  border: 1px solid #f5170e;
+}
+
+.review-form__input--textarea {
+  padding: 33px 30px;
+  width: 100%;
+  min-height: 235px;
+  margin-bottom: 14px;
+}
+
+.review-form__controls {
+  display: flex;
+  margin-bottom: 21px;
+}
+
+.review-form__controls-title {
+  padding-top: 14px;
+  width: 38.6%;
+}
+
+.review-form__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.review-form__button {
+  margin-right: 16px;
+}
+
+.review-form__button:last-child {
+  margin-right: 0;
+}

@@ -1,3 +1,11 @@
+.partners__container {
+  padding: 90px 0 45px 0;
+}
+
+.partners__title {
+  margin-bottom: 90px;
+}
+
 .partners {
   display: flex;
   flex-wrap: wrap;
