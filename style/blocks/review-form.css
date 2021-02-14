@@ -41,14 +41,14 @@
   margin-bottom: 14px;
 }
 
-.review-form__controls {
-  display: flex;
-  margin-bottom: 21px;
-}
-
 .review-form__controls-title {
   padding-top: 14px;
   width: 38.6%;
+}
+
+.review-form__controls {
+  display: flex;
+  margin-bottom: 21px;
 }
 
 .review-form__buttons {

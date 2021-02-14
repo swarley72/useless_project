@@ -17,15 +17,6 @@
   width: 36px;
   height: 36px;
   text-decoration: none;
-  transition: opacity 0.5s;
-}
-
-.socials__link:hover:before {
-  opacity: 1;
-}
-
-.socials__link:hover:after {
-  opacity: 0;
 }
 
 .socials__item--icon-tg .socials__link:after {
@@ -130,4 +121,14 @@
   transform: translate(-50%, -50%);
   opacity: 0;
   background: url("../../img/socials/sprites.png") -10px -10px;
+}
+
+.socials__link:hover:before {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.socials__link:hover:after {
+  opacity: 0;
+  transition: opacity 0.5s;
 }

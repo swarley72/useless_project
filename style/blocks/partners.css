@@ -14,7 +14,6 @@
 .partners__item {
   margin-bottom: 58px;
   filter: grayscale(1);
-
   flex-grow: 1;
   min-width: 265px;
   max-width: 295px;
